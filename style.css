@@ -51,6 +51,9 @@ nav ul li a:hover {
     color: #c75001;
     margin-bottom: 7%;
 }
+.up {
+    color:#c75001 ;
+}
 .btn    {
     text-decoration: none;
     border: 2px solid #c75001;
@@ -138,9 +141,9 @@ nav ul li a:hover {
 .para1  {
     color: #2c3e50;
     font-weight: bold;
-    margin-bottom: 7%;
-    
+    padding-bottom: 1px;
 }
+
 .img1  {
     width: 70%;
     padding-top: 10%;
@@ -168,9 +171,9 @@ nav ul li a:hover {
     border: 3ps solid black;
     border-radius: 15px;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 22%;
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     padding: 15px 20px;
     box-shadow: 0 0 12px aqua;
 }
