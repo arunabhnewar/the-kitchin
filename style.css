@@ -1,0 +1,193 @@
+body    {
+    background-color: #2c3e50;
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+}
+/* Navbar */
+nav    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f8c8d;
+    position: sticky;
+    top: 0%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 25px;
+}
+nav ul li  {
+    font-family:'Lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+nav ul li a    {
+    text-decoration: none;
+    color: #064f80;
+    padding: 10px 20px;
+    transition: all .6s ease;
+}
+nav ul li a:hover {
+    background-color: #ecf0f1;
+    color: #c75001;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+}
+/* Home */
+.flexi  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.header     {
+    margin-top: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+.para   {
+    color: #c75001;
+    margin-bottom: 7%;
+}
+.btn    {
+    text-decoration: none;
+    border: 2px solid #c75001;
+    background: linear-gradient(#eed970, #333333);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    transition: all .6s ease;
+}
+.btn:hover  {
+    color: #054169;
+    box-shadow: 0 0 10px yellow;
+}
+.img    {
+    margin-top: 2%;
+    padding-right: 15px;
+}
+/* About */
+.ban    {
+    background-image: url(Frame58.jpg);
+    background-repeat: no-repeat;
+}
+.image  {
+    width: 90%;
+    padding-top: 10%;
+    margin-left: 10px;
+}
+.left   {
+    margin-left: 45%;
+}
+
+/* My Recipies */ 
+.item   {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.row    {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 20%;
+    height: 25%;
+    border: 1px solid #95a5a6 ;
+    margin: 5px 10px 5px 10px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px rgb(32, 255, 255);
+    background-color:linear-gradient(to top, rgb(235, 1, 1) 50%, white 50%);
+    transition: all .8s ease;
+}
+.box-img    {
+    width: 90%;
+    height: 70%;
+}
+.box:hover  {
+    box-shadow: 0 0 20px white;
+    color:#2c3e50 ;
+}
+.middle {
+    text-align: center;
+    color: #c75001;   
+}
+.head   {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* Blog */
+.banner {
+    background-image: url(Frame57.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    width: 100%;
+    padding-bottom: 15%;
+}
+.para1  {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 7%;
+    
+}
+.img1  {
+    width: 70%;
+    padding-top: 10%;
+    padding-left: 25%;
+    margin-left: 10px;
+}
+/* Services */
+.wallpaper  {
+    background-image: url(Frame58.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+.pic    {
+    padding-top: 20%;
+    margin-left: 10%;
+}
+/* Subscribers */
+.subs   {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #bfd2d3;
+    color: #032d49;
+    font-weight: bold;
+    border: 3ps solid black;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 15px 20px;
+    box-shadow: 0 0 12px aqua;
+}
+.text   {
+    text-align: center;
+}
+/* Footer */
+
+.footie     {
+    background-color:#7f8c8d;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color:#023252
+}
+.color   {
+    color: #8b3a03;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
