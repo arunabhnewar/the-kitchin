@@ -112,6 +112,7 @@ nav ul li a:hover {
     box-shadow: 0 0 0 2px rgb(32, 255, 255);
     background-color:linear-gradient(to top, rgb(235, 1, 1) 50%, white 50%);
     transition: all .8s ease;
+    cursor: pointer;
 }
 .box-img    {
     width: 90%;
@@ -176,6 +177,7 @@ nav ul li a:hover {
     margin-bottom: 10%;
     padding: 15px 20px;
     box-shadow: 0 0 12px aqua;
+    cursor: pointer;
 }
 .text   {
     text-align: center;
@@ -193,4 +195,9 @@ nav ul li a:hover {
     color: #8b3a03;
     font-weight: 800;
     font-size: 1.5rem;
+}
+.fab {
+    font-size: 25px;
+    padding: 3px;
+    color: white;
 }
