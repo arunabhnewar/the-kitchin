@@ -6,152 +6,215 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Kitchin</title>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon3.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- fonts awesome -->
     <script src="https://kit.fontawesome.com/4fa42c0453.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#recipies">Recipies</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#subscribers">Subscribers</a></li>
-        </ul>
-    </nav>
-    <section id="home" class="flexi">
-        <div class="header">
-            <h1>Eat right, be bright.<br>
-                Be smart, eat smart. <br>
-                With <span class="para">The Kitchin</span><br>
-            </h1>
-            <p class="para down">Eating healthy is the best choice to make for your diet. It is vital for good
-                health
-                and can
-                reduce the
-                risk of numerous chronic health conditions. It also helps maintain a healthy weight and gives you
-                more
-                energy to enjoy life.</p>
-            <a class="header btn" href="https://www.facebook.com/arunabh.newar/" target="_blank">Order Food</a>
-        </div>
-        <div>
-            <img class="img" src="pic1.png" alt="">
-        </div>
-    </section>
-    <section id="about" class="flexi ban">
-        <div>
-            <img class="image" src="scarlet.png" alt="">
-        </div>
-        <div class="header">
-            <h1 class="up left">About Me</h1>
-            <p class="para left down">Hi, I’m Scarlet, food lover, food blogger and head chef in The
-                Kitchin.
-                I believe that living a healthy life is possible not with diet, but with healthy food. That is why I
-                am
-                always aware of healthy food. I also like to experiment with food recipes, and take care not to lose
-                the
-                nutritional value of the food.
-            </p>
-            <a class="left btn header" href="https://www.linkedin.com/in/newar-devil-bb7126215/" target="_blank">Contact
-                Me</a>
-        </div>
-    </section>
-    <section id="recipies" class="item">
-        <h1 class="head middle">My Recipies</h1>
-        <p class="middle">There’s cooking, with passion, creativity, and love. At The Kichin’s, we firmly believe <br>
-            that the energy we put into a recipe is just as important as the ingredients you use.</p>
-        <div class="row">
-            <div class="box">
-                <img class="box-img" src="Project Cover1.jpg" alt="">
-                <h2 class="para">Steak Tagliata </h2>
-                <p class="header">Make comfort food of the quick and light variety for dinner tonight with this riff
-                    on
-                    steak tagliata.
-                    Flash fried steak is served with crispy, buttery gnocchi, rocket and tomatoes and then drizzled
-                    in a
-                    balsamic dressing.</p>
+    <!-- header start -->
+    <header>
+        <!-- navbar start -->
+        <section class="container">
+            <nav class="nav-content">
+                <div class="nav-logo">
+                    <img src="images/logo/logo1.png" alt="">
+                    <h3>The Kitchin</h3>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <!-- <li><a href="#client">Client</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- navbar end -->
+        <!-- banner section start -->
+        <section class="container">
+            <div class="banner-content">
+                <div class="banner-info">
+                    <h1>The Kitchin</h1>
+                    <p><span class="offer">25%</span> discounts for a tap away</p>
+                    <button class="btn">Order Now</button>
+                </div>
             </div>
-            <div class="box">
-                <img class="box-img" src="Project Cover5.png" alt="">
-                <h2 class="para">Rainbow Salad</h2>
-                <p class="header">Diced mango adds a surprising sweet twist to this colorful orzo, red onion, bell
-                    pepper, herb, and cucumber salad. A creamy, tangy dressing ties it all together.</p>
+        </section>
+        <!-- banner section end -->
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+        <!-- about section start -->
+        <section id="about" class="container">
+            <div class="about-content">
+                <div class="about-detail">
+                    <h1>About</h1>
+                    <p>Hi, I’m Scarlet, food lover, food blogger and head chef in The Kitchin. I believe that living a
+                        healthy life is possible not with diet, but with healthy food. That is why I am always aware of
+                        healthy food. I also like to experiment with food recipes, and take care not to lose the
+                        nutritional
+                        value of the food.</p>
+                </div>
             </div>
-            <div class="box">
-                <img class="box-img" src="Project Cover.png" alt="">
-                <h2 class="para">Rice Pudding</h2>
-                <p class="header">Creamy and aromatic Rice Kheer aka Indian Rice Pudding is made with basic
-                    ingredients, and is the Indian dessert. Flavored with cardamom, nuts & rose water,
-                    it’s the best way to finish off an meal.</p>
+        </section>
+        <!-- aboute section end -->
+        <!-- menu start -->
+        <section id="menu" class="container">
+            <div class="menu-title">
+                <h1>Special Menu</h1>
+                <h3>New <span style="color: red;">Exclusive</span> food menu</h3>
             </div>
-        </div>
-    </section>
-    <section id="blog" class="flexi banner">
-        <div class="header">
-            <h1 class="para1">My Food <span class="para">Blog</span></h1>
-            <h1 class="para1">The Story of <span class="para">The Pizza</span> </h1>
-            <p class="para">Pizza, favored by all ages, dates back to 1889. Pizza, garnished with Mozzarella and
-                tomatoes, was
-                normally known as the dish for poor
-                people until it became a famous dish for the wealthy when Queen
-                Margherita had it as a meal as well. Pizza, with sauces and spices such as basil and garlic added
-                later on, gets recognition by other nations with the arrival of Italian immigrants to the United
-                States. The spread of pizza all over the world is due to the initiatives of the Americans.</p>
-            <a class="btn" href="https://www.instagram.com/arunabhnewar/">Foodie Lover</a>
-        </div>
-        <div>
-            <img class="img1" src="pic3.png" alt="">
-        </div>
-    </section>
-    <section id="services" class="flexi wallpaper">
-        <div>
-            <img class="pic" src="office-lunch.png" alt="">
-        </div>
-        <div class="header">
-            <h1 class="left para1">The Kitchin for Business</h1>
-            <p class="left para1">Order lunch, dinner for meeting or late night deliveries to the office. Your favourite
-                The Kitchin coming to desk near you.</p>
-            <a class="btn left" href="https://www.w3schools.com/" target="_blank">Order Now</a>
-        </div>
-    </section>
-    <section id="subscribers">
-        <div class="subs">
-            <div class="text">
-                <h3>700k</h3>
-                <p>Youtube Subscribers</p>
+            <div class="menu-content">
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/baked-chicken-wings.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Baked Chicken Wings</h4>
+                        <p>Item No: 08</p>
+                        <p>Rating: 4/5</p>
+                        <p>Price: $80</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/chicken-skewers.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Chicken Skewers</h4>
+                        <p>Item No: 10</p>
+                        <p>Rating: 4.5/5</p>
+                        <p>Price: $95</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/Epic-summer-salad.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Summer Salad</h4>
+                        <p>Item No: 21</p>
+                        <p>Rating: 4/5</p>
+                        <p>Price: $59</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/japanese-food.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Tempura</h4>
+                        <p>Item No: 07</p>
+                        <p>Rating: 4.5/5</p>
+                        <p>Price: $95</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/korean-bbq.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Korean Tradional Bbq</h4>
+                        <p>Item No: 05</p>
+                        <p>Rating: 4.8/5</p>
+                        <p>Price: $120</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/mexican-quesadilla.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Mexican Quesadilla</h4>
+                        <p>Item No: 03</p>
+                        <p>Rating: 4.2/5</p>
+                        <p>Price: $110</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/Steak.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>Scotish Steak</h4>
+                        <p>Item No: 16</p>
+                        <p>Rating: 4/5</p>
+                        <p>Price: $100</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-item">
+                        <img src="images/food/yogurt.jpg" alt="">
+                    </div>
+                    <div class="item-detail">
+                        <h4>French Yogurt</h4>
+                        <p>Item No: 33</p>
+                        <p>Rating: 4.1/5</p>
+                        <p>Price: $85</p>
+                        <button class="button">Order Now</button>
+                    </div>
+                </div>
             </div>
-            <div class="text">
-                <h3>2.4m </h3>
-                <p>Instagram Followers</p>
+        </section>
+        <!-- menu end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer>
+        <!-- contact start -->
+        <section id="contact" class="container">
+            <div class="contact-content">
+                <div class="contact-detail">
+                    <div class="contact-name">
+                        <h3>The Kitchin</h3>
+                        <p>
+                            Shah High School Road,<br>
+                            Majherbast, Tabalchari,<br>
+                            Rangamati Hill Tracts.
+                        </p>
+                    </div>
+                    <div class="contact-time">
+                        <h3>Opening Time :</h3>
+                        <p>Mon-Fri: 8 a.m to 10 p.m <br>
+                            Sat-Sun: 10 a.m to 10 p.m
+                        </p>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Phone</h3>
+                        <p>+880-0123-45-6789</p>
+                        <p>the_kitchin@mail.com</p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="icon">
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-instagram-square"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-whatsapp-square"></i></a>
+                    </div>
+                    <p>&copy; all right reserved by newardevil.com</p>
+                </div>
             </div>
-            <div class="text">
-                <h3>100k</h3>
-                <p>Dribbble Shot Likes</p>
-            </div>
-        </div>
-    </section>
-    <div class="footie">
-        <footer>
-            <h3 class="color">The Kitchin</h3>
-            <h3>Eat Healthy – Look Healthy – Feel Healthy</h3>
-            <p>Join us:
-                <a href="https://www.facebook.com/arunabh.newar/" target="_blank"><i
-                        class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/arunabhnewar/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/arunabh_leo" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://github.com/arunabhnewar" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/newar-devil-bb7126215/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-            </p>
-            <p>Copyright © 2021 - All Rights Reserved by newardevil.com</p>
-        </footer>
-    </div>
+
+        </section>
+        <!-- contact end -->
+    </footer>
+    <!-- footer end -->
 </body>
 
 </html>

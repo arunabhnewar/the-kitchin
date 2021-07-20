@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1160px;
+    margin: auto;   
+}
+
+/*-------- navbar start--------- */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #badc58;
+    position: sticky;
+    padding: 20px 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    color: #8B4513;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.nav-menu li a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0 20px;
+    color: #3c6382;
+    transition: all 0.4s ease;
+}
+.nav-menu li a:hover {
+    background-color: #f9ca24;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    color: #8B4513;
+     
+}
+/* ------------navbar end------------------ */
+
+/*--------------- banner section------------ */
+.banner-content {
+    margin-top: 15px;
+    background-image: url("/images/banner/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    opacity: 0.8;
+}
+.banner-info {
+    text-align: center;
+    padding-top: 280px;
+}
+.banner-info h1 {
+    background-color: #f9ca24;
+    color: #5e2b06;
+    font-size: 3em;
+    font-weight: 900;   
+}
+.banner-info p {
+    color: #3c6382;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.banner-info .offer {
+    color: #f9ca24;
+    font-size: 1.7em;
+}
+.btn {
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    color: #5e2b06;
+    font-size: 1.2em;
+    font-weight: 900;
+    background-color: #A3CB38;
+}
+.btn:hover {
+    cursor: pointer;
+    color: #0652DD;
+    background-color: #f9ca24;
+    box-shadow: 0 0 5px white;
+    transition: all 0.5s ease;
+}
+/*----------- banner section end------------ */
+
+/*-----------about section start------------- */
+.about-content {
+    text-align: center;
+    margin-top: 100px;
+    background-image: url(/images/banner/banner2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    opacity: 0.9;
+}
+.about-detail {
+    padding-top: 170px;
+    text-align: center;
+}
+.about-content h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.about-content p {
+    padding-top: 40px;
+    color: #ffffff;
+    font-weight: 500;
+}
+/* ------------menu start---------------------- */
+.menu-title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #5e2b06;
+}
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 40px;
+    margin-left: 30px;
+}
+.menu-card {
+    display: grid;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#badc58;
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    transition: all .8 ease;
+}
+.card-item img {
+    width: 250px;
+    height: auto;
+}
+.item-detail {
+   text-align: center;
+    color: #5e2b06;
+    font-size: 1.1em;
+}
+.menu-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px black;
+}
+.button {
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    color: #5e2b06;
+    font-size: 1em;
+    font-weight: 900;
+    background-color: #ffffff;
+}
+.button:hover {
+    cursor: pointer;
+    color: #0652DD;
+    background-color: #f9ca24;
+    box-shadow: 0 0 15px black;
+    transition: all 0.5s ease;
+}
+/*----------------- menu end---------------------- */
+/*--------------- contact start------------------- */
+
+.contact-content {
+    background-color: #f9ca24;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+    
+}
+.contact-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr
+    );
+    padding-top: 15px;
+    padding-left: 100px;
+}
+.contact-detail h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.contact-detail p {
+    color: #3c6382;
+    font-size: 1em;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.fab {
+    font-size: 2em;
+    padding: 0 5px;
+    color: #3c6382;
+}
+
+/*------------------- media query------------ */
+/*-------------- mobile device-------------- */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .nav-content, .nav-menu {
+        flex-direction: column;
+        line-height: 3em;
+    }
+    .menu-content, .contact-detail {
+        grid-template-columns: repeat(1, 1fr); 
+      
+    }
+   
+}
