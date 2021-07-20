@@ -231,9 +231,18 @@ body {
         flex-direction: column;
         line-height: 3em;
     }
-    .menu-content, .contact-detail {
-        grid-template-columns: repeat(1, 1fr); 
-      
+    .menu-content, .contact-detail, .copyright{
+        grid-template-columns: repeat(1, 1fr);  
+    }  
+}
+@media only screen and (min-width: 689px) and (max-width:992px) {
+    .container {
+        width: 100%;
     }
-   
+    .menu-content  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-detail, .copyright {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
