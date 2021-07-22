@@ -57,7 +57,7 @@ body {
 /*--------------- banner section------------ */
 .banner-content {
     margin-top: 15px;
-    background-image: url("/images/banner/banner.png");
+    background-image: url(/images/banner/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -108,7 +108,7 @@ body {
 .about-content {
     text-align: center;
     margin-top: 100px;
-    background-image: url("/images/banner/banner2.jpeg");
+    background-image: url(/images/banner/banner2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
